@@ -1,0 +1,56 @@
+.banner nav {
+  border-bottom: 1px solid #008bd2;
+  border-top: 1px solid #008bd2;
+  margin-top: 15px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 15px;
+}
+
+.banner nav li {
+  @extend .nav-item;
+}
+
+.banner nav a {
+  @extend .nav-link;
+
+  color: #fff;
+}
+
+header.banner {
+  margin-top: 15px;
+}
+
+a.brand img {
+  max-width: 250px;
+}
+
+.nav.navbar-nav.mr-auto li a {
+  background: $brand-primary;
+  margin-right: 10px;
+}
+
+.shiftnav-toggle-button.hamburger {
+  outline: none;
+  padding: 15px;
+  padding-bottom: 10px;
+}
+
+.shiftnav-toggle-button:hover {
+  padding: 15px;
+  padding-bottom: 10px;
+  background: $brand-primary;
+  outline: none;
+
+  & .hamburger-inner,
+  .hamburger-inner::before,
+  .hamburger-inner::after {
+    background-color: #fff !important;
+  }
+}
+
+.shiftnav-toggle-button:focus {
+  outline: none;
+}
