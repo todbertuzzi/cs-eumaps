@@ -68,3 +68,18 @@ a.brand img {
 .shiftnav-toggle-button:focus {
   outline: none;
 }
+
+.shiftnav.shiftnav-menu_right ul.shiftnav-menu li.menu-item:hover > .shiftnav-target {
+  background-color: $brand-primary;
+}
+
+.shiftnav .shiftnav-panel-close {
+  display: block;
+  position: relative;
+  background: $brand-primary;
+}
+
+.home .page-header {
+  display: none;
+}
+

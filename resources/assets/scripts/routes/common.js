@@ -20,6 +20,10 @@ export default {
       }
     });
 
+    $('.shiftnav-panel-close').click(function() {
+      $(".hamburger.shiftnav-toggle").removeClass("is-active");
+    });
+
      
   },
   finalize() {
