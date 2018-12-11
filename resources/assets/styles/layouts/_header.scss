@@ -1,3 +1,17 @@
+.holder-brand-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.holder-social-header {
+  align-self: flex-end;
+
+  & i {
+    font-size: 35px;
+    color: $brand-primary;
+  }
+}
+
 .banner nav {
   border-bottom: 1px solid #008bd2;
   border-top: 1px solid #008bd2;
