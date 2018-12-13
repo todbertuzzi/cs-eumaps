@@ -1,0 +1,7 @@
+.partner_logo img {
+  filter: grayscale(100%);
+}
+
+.partner_logo:hover img {
+  filter: grayscale(0%);
+}
