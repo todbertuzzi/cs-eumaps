@@ -1,0 +1,10 @@
+2018-12-15 10:32:17 URL:http://ce-eumaps.local/ [33808] -> "ce-eumaps.local/index.html.tmp.tmp" [1]
+http://ce-eumaps.local/robots.txt:
+2018-12-15 10:32:17 ERROR 404: Not Found.
+2018-12-15 10:32:20 URL:http://ce-eumaps.local/sample-page/ [8963] -> "ce-eumaps.local/sample-page/index.html.tmp.tmp" [1]
+2018-12-15 10:32:24 URL:http://ce-eumaps.local/wp-login.php?redirect_to=http%3A%2F%2Fce-eumaps.local%2Fwp-admin%2F&reauth=1 [2292] -> "ce-eumaps.local/wp-admin/index.html.tmp.tmp" [1]
+Found no broken links.
+
+FINISHED --2018-12-15 10:32:24--
+Total wall clock time: 19s
+Downloaded: 3 files, 44K in 0s (90.5 MB/s)

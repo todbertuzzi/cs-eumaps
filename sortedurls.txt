@@ -1,0 +1,3 @@
+http://ce-eumaps.local/
+http://ce-eumaps.local/sample-page/
+http://ce-eumaps.local/wp-login.php?redirect_to=http%3A%2F%2Fce-eumaps.local%2Fwp-admin%2F&reauth=1

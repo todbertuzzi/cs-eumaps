@@ -1,0 +1,54 @@
+2018-12-15 10:27:13 URL:http://ce-eumaps.local/ [33618] -> "ce-eumaps.local/index.html.tmp.tmp" [1]
+http://ce-eumaps.local/robots.txt:
+2018-12-15 10:27:13 ERROR 404: Not Found.
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/uploads/bb-plugin/icons/ultimate-icons/style.css?ver=2.1.2.1 200 OK
+ce-eumaps.local/wp-content/uploads/bb-plugin/icons/ultimate-icons/style.css?ver=2.1.2.1.tmp: No such file or directory
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/uploads/bb-plugin/cache/9-layout.css?ver=c14f63e7ffb8e61b46d906dd458a1971 200 OK
+ce-eumaps.local/wp-content/uploads/bb-plugin/cache/9-layout.css?ver=c14f63e7ffb8e61b46d906dd458a1971.tmp: No such file or directory
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/plugins/shiftnav-pro/pro/assets/css/shiftnav.min.css?ver=1.6.1.2 200 OK
+ce-eumaps.local/wp-content/plugins/shiftnav-pro/pro/assets/css/shiftnav.min.css?ver=1.6.1.2.tmp: No such file or directory
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/plugins/shiftnav-pro/assets/css/skins/standard-dark.css?ver=1.6.1.2 200 OK
+ce-eumaps.local/wp-content/plugins/shiftnav-pro/assets/css/skins/standard-dark.css?ver=1.6.1.2.tmp: No such file or directory
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/themes/ce-eumaps/dist/styles/main.css 200 OK
+ce-eumaps.local/wp-content/themes/ce-eumaps/dist/styles/main.css.tmp: No such file or directory
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/plugins/shiftnav-pro/assets/css/fontawesome/css/font-awesome.min.css?ver=1.6.1.2 200 OK
+ce-eumaps.local/wp-content/plugins/shiftnav-pro/assets/css/fontawesome/css/font-awesome.min.css?ver=1.6.1.2.tmp: No such file or directory
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/themes/ce-eumaps/dist/images/eU-maps_logo-ce.png 200 OK
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/uploads/2018/12/logo_torvergata.png 200 OK
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/uploads/2018/12/logo_gcs.png 200 OK
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/uploads/2018/12/logo_pwc.png 200 OK
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/uploads/2018/12/logo_ispm-150x77.png 200 OK
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/uploads/2018/12/logo-cidis.png 200 OK
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/uploads/2018/12/logo-legambiente.png 200 OK
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/uploads/2018/12/logoEURAC-1.jpg 200 OK
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-includes/js/jquery/jquery.js 200 OK
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-includes/js/jquery/jquery-migrate.min.js 200 OK
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/plugins/bb-plugin/js/jquery.waypoints.min.js?ver=2.1.2.1 200 OK
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/uploads/bb-plugin/cache/9-layout.js?ver=c14f63e7ffb8e61b46d906dd458a1971 200 OK
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/themes/ce-eumaps/dist/scripts/main.js 200 OK
+unlink: No such file or directory
+2018-12-15 10:27:13 URL: http://ce-eumaps.local/wp-content/plugins/shiftnav-pro/assets/js/shiftnav.min.js?ver=1.6.1.2 200 OK
+unlink: No such file or directory
+Found no broken links.
+
+FINISHED --2018-12-15 10:27:13--
+Total wall clock time: 9.0s
+Downloaded: 1 files, 33K in 0.001s (59.0 MB/s)
