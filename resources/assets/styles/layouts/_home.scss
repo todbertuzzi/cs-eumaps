@@ -5,3 +5,62 @@
 .partner_logo:hover img {
   filter: grayscale(0%);
 }
+
+.scenario_carosello .bx-pager-item {
+  border-top: 1px solid $brand-primary;
+  border-bottom: 1px solid $brand-primary;
+  margin: 2px;
+  padding: 2px;
+}
+
+.scenario_carosello .bx-wrapper .bx-pager.bx-default-pager a {
+  background: $brand-primary;
+}
+
+.scenario_carosello .bx-wrapper .bx-pager.bx-default-pager a.active,
+.scenario_carosello .bx-wrapper .bx-pager.bx-default-pager a:focus,
+.scenario_carosello .bx-wrapper .bx-pager.bx-default-pager a:hover {
+  background: #1a3c8a;
+}
+
+.scenario_carosello h3.fl-slide-title {
+  background: rgba(0, 139, 210, 0.2);
+}
+
+span.data-accordion {
+  display: inline-block;
+  font-size: 16px;
+  background: #fff;
+  width: auto;
+  padding: 5px;
+}
+
+span.title-accordion {
+  display: block;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  margin-top: 4px;
+  color: #fff;
+  background: #008bd2;
+  padding: 5px;
+}
+
+.profilo {
+  & .uabb-team-image {
+    display: inline-block;
+    float: left;
+    max-width: 35%;
+  }
+
+  & .uabb-team-content {
+    display: inline-block !important;
+    max-width: 65%;
+    float: left;
+    padding-top: 0;
+
+    & .uabb-team-desc {
+      text-align: justify;
+    }
+  }
+}
