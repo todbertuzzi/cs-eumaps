@@ -1,8 +1,8 @@
 <header class="banner">
   <div class="container"> 
     <div class="holder-brand-social">
-      <a class="brand" href="{{ home_url('/') }}"><img class="logo-header" title="{{ get_bloginfo('name', 'display') }}" src="@asset('images/eU-maps_logo-ce.png')"></a>
-      <div class="holder-social-header"><i class="fab fa-facebook-square"></i> <i class="fab fa-twitter-square"></i> </div> 
+      <a class="brand" href="{{ home_url('/') }}"><img class="logo-header" title="{{ get_bloginfo('name', 'display') }}" src="@asset('images/ce_eumaps_logo_testata.jpg')"></a>
+      <div class="holder-social-header"><a target="_blank" href="https://www.facebook.com/CorsoeUMaps/"><i class="fab fa-facebook-square"></i></a> <a target="_blank" href="https://twitter.com/eU_maps"><i class="fab fa-twitter-square"></i></a> </div> 
     </div>
     <nav class="nav-primary navbar navbar-expand-lg">
       @if (has_nav_menu('primary_navigation'))

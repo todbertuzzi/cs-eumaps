@@ -40,12 +40,14 @@ header.banner {
 }
 
 a.brand img {
-  max-width: 250px;
+  max-width: 430px;
 }
 
 .nav.navbar-nav.mr-auto li a {
   background: $brand-primary;
   margin-right: 10px;
+  font-family: "QuickSand", sans-serif;
+  font-weight: 500;
 }
 
 .shiftnav-toggle-button.hamburger {
@@ -106,3 +108,23 @@ a.brand img {
   padding-top: 10px;
 }
 
+@media only screen and (max-width: 960px) {
+  ul#menu-principale {
+    width: 100%;
+    text-align: center;
+  }
+
+  li.menu-item.menu-item-type-custom.menu-item-object-custom.nav-item {
+    margin: 5px;
+  }
+}
+
+.page-header h1 {
+  display: none;
+}
+
+@media only screen and (max-width: 430px) {
+  a.brand img {
+    max-width: 260px;
+  }
+}

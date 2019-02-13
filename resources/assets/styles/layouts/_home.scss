@@ -1,5 +1,13 @@
-.partner_logo img {
-  filter: grayscale(100%);
+.foto_mappa img {
+  border: 3px solid #fff;
+}
+
+.partner_logo {
+  float: left;
+
+  & img {
+    filter: grayscale(100%);
+  }
 }
 
 .partner_logo:hover img {
@@ -25,6 +33,15 @@
 
 .scenario_carosello h3.fl-slide-title {
   background: rgba(0, 139, 210, 0.2);
+}
+
+span.ore {
+  display: inline-block;
+  font-size: 16px;
+  background: #fff;
+  width: auto;
+  padding: 5px;
+  margin-left: 10px;
 }
 
 span.data-accordion {
@@ -62,5 +79,302 @@ span.title-accordion {
     & .uabb-team-desc {
       text-align: justify;
     }
+  }
+}
+
+.subheader_programma {
+  background: $brand-primary;
+}
+
+.paragrafo_normale {
+  font-family: "QuickSand", sans-serif;
+  font-weight: 500;
+}
+
+.paragrafo_normale.t_bianco {
+  color: #fff;
+}
+
+/*
+.team_header_meneguzzo,
+.team_header_amici,
+.team_header_porcedda,
+.paragrafo_normale.t_bianco.desc_meneguzzo,
+.paragrafo_normale.t_bianco.desc_amici,
+.paragrafo_normale.t_bianco.desc_porcedda {
+  display: none;
+}
+*/
+
+/*
+buemi
+soli
+mancini
+piazzi
+costumato
+*/
+
+.team_header_buemi,
+.team_header_soli,
+.team_header_mancini,
+.team_header_piazzi,
+.team_header_costumato,
+.paragrafo_normale.t_bianco.desc_buemi,
+.paragrafo_normale.t_bianco.desc_soli,
+.paragrafo_normale.t_bianco.desc_mancini,
+.paragrafo_normale.t_bianco.desc_piazzi,
+.paragrafo_normale.t_bianco.desc_costumato {
+  display: none;
+  overflow: hidden;
+}
+
+.admin-bar .team_header_buemi,
+.admin-bar .team_header_soli,
+.admin-bar .team_header_mancini,
+.admin-bar .team_header_piazzi,
+.admin-bar .team_header_costumato,
+.admin-bar .paragrafo_normale.t_bianco.desc_buemi,
+.admin-bar .paragrafo_normale.t_bianco.desc_soli,
+.admin-bar .paragrafo_normale.t_bianco.desc_mancini,
+.admin-bar .paragrafo_normale.t_bianco.desc_piazzi,
+.admin-bar .paragrafo_normale.t_bianco.desc_costumato {
+  display: block;
+  overflow: hidden;
+}
+
+.foto_profili.foto_buemi img,
+.foto_profili.foto_soli img,
+.foto_profili.foto_mancini img,
+.foto_profili.foto_piazzi img,
+.foto_profili.foto_costumato img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(1000%);
+}
+
+.team_header_meneguzzo,
+.team_header_amici,
+.team_header_porcedda,
+.paragrafo_normale.t_bianco.desc_meneguzzo,
+.paragrafo_normale.t_bianco.desc_amici,
+.paragrafo_normale.t_bianco.desc_porcedda {
+  display: none;
+}
+
+.admin-bar .team_header_meneguzzo,
+.admin-bar .team_header_amici,
+.admin-bar .team_header_porcedda,
+.admin-bar .paragrafo_normale.t_bianco.desc_meneguzzo,
+.admin-bar .paragrafo_normale.t_bianco.desc_amici,
+.admin-bar .paragrafo_normale.t_bianco.desc_porcedda {
+  display: block;
+}
+
+/*
+// TOUCH DEVICE ONLY
+@media (hover: none) {
+  .foto_profili.foto_meneguzzo,
+  .foto_profili.foto_amici,
+  .foto_profili.foto_porcedda {
+    display: none;
+  }
+}
+*/
+
+/*
+// NOT TOUCH DEVICE ONLY
+@media (hover: hover) {
+  .profilo.profilo_meneguzzo,
+  .profilo.profilo_amici,
+  .profilo.profilo_porcedda {
+    display: none;
+  }
+}
+*/
+
+.uabb-adv-accordion-item[data-index="0"] .title-accordion::after {
+  content: "\f153";
+  font-family: "Font Awesome 5 Free", sans-serif;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.uabb-adv-accordion-item[data-index="1"] .title-accordion::after {
+  content: "\f0e8";
+  font-family: "Font Awesome 5 Free", sans-serif;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.uabb-adv-accordion-item[data-index="2"] .title-accordion::after {
+  content: "\f044";
+  font-family: "Font Awesome 5 Free", sans-serif;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.uabb-adv-accordion-item[data-index="3"] .title-accordion::after,
+.uabb-adv-accordion-item[data-index="4"] .title-accordion::after {
+  content: "\f0ae";
+  font-family: "Font Awesome 5 Free", sans-serif;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+//FORMS
+.gsection {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #fff;
+  font-family: "QuickSand", sans-serif;
+}
+
+.sesso_input label,
+.sesso_input li {
+  text-align: center !important;
+}
+
+.paragrafo_stage,
+.paragrafo_summer,
+.paragrafo_programma,
+.paragrafo_normale {
+  font-family: "QuickSand", sans-serif;
+}
+
+.partner_logo .uabb-image .uabb-photo-img {
+  width: auto !important;
+  max-height: 75px;
+}
+
+.bottone_header {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.tablepress th {
+  background: #333 !important;
+  text-transform: uppercase;
+  font-weight: 900 !important;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  text-align: center;
+}
+
+.tablepress td {
+  border-right: 1px solid;
+  border-left: 1px solid;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tablepress .even td {
+  background-color: #0678b2;
+}
+
+.tablepress .odd td {
+  background-color: #056495;
+}
+
+.tablepress .row-hover tr:hover td {
+  background: #008bd2;
+}
+
+table.tablepress {
+  border: 1px solid;
+}
+
+@media only screen and (min-width: 768px) {
+  .fl-module.fl-module-advanced-accordion .tablepress {
+    margin-left: 50px;
+    max-width: 90%;
+  }
+}
+
+.accordion_faq .uabb-accordion-desc.uabb-text-editor {
+  font-family: "QuickSand", sans-serif;
+  font-weight: 500;
+}
+
+a.adv-icon-link {
+  margin-bottom: 20px !important;
+}
+
+.modal {
+  top: 30px !important;
+}
+
+.modello-eumaps-btn {
+  cursor: pointer;
+}
+
+.modal-content {
+  font-family: "QuickSand", sans-serif;
+}
+
+.modal-footer {
+  background: #ddd;
+}
+
+.modal-header {
+  background: #008bd2;
+  color: #fff;
+}
+
+@media only screen and (min-width: 760px) {
+  #modal-eumaps .modal-dialog {
+    max-width: 70%;
+  }
+}
+
+.linkprog {
+  display: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .holder-social-header {
+    display: none;
+  }
+
+  .linkprog {
+    display: block;
+    color: #fff;
+    text-align: center;
+  }
+
+  span.data-accordion {
+    display: block;
+  }
+
+  span.ore {
+    display: block;
+    margin-left: 0;
+  }
+
+  table.tablepress {
+    display: none;
+  }
+
+  .adv-icon-link {
+    margin-right: 0 !important;
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .adv-icon-link .uabb-imgicon-wrap {
+    text-align: center !important;
+  }
+}
+
+.fl-col-group.fl-node-5c378096808a8,
+.fl-col-group.fl-node-5c56fde27a38e {
+  display: none;
+}
+
+@media only screen and (max-width: 820px) {
+  .fl-node-5c484c0de13e8 .uabb-imgicon-wrap {
+    text-align: center !important;
+  }
+
+  .fl-node-5c484dbe60576 .adv-icon-right {
+    text-align: center !important;
   }
 }
